@@ -26,10 +26,12 @@ class Signup_GUI extends JFrame implements ActionListener {
 	private JTextField NickNameset_Text = new JTextField(20);
 	private JTextField Passwordset_Text = new JTextField(20);
 	private JTextField Emailset_Text = new JTextField(30);
+	private JTextField Address_Text = new JTextField(50);
 
 	private JLabel NickNameset_Label = new JLabel("원하는 유저이름 입력");
 	private JLabel Passwordset_Label = new JLabel("원하는 비밀번호 입력");
 	private JLabel Emailset_Label = new JLabel("이메일 입력");
+	
 
 	private JButton NickNameTest_Button = new JButton("아이디 중복 확인");
 	private JButton PasswordTest_Button = new JButton("비밀번호 사용 가능 여부");
