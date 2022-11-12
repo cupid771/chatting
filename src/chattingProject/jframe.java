@@ -32,6 +32,7 @@ class LoginGUI1 extends JFrame implements ActionListener {
 	private JLabel IPAddress_Label = new JLabel("입력창2");
 	private JButton Login_GUI_Button = new JButton("버튼1");
 	private JButton GoSignUp_GUI_Button = new JButton("버튼2");
+	
 
 	public LoginGUI1() {
 		setTitle("Jframe");
