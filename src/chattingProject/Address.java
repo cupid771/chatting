@@ -25,7 +25,7 @@ public class Address
     // [out] v[i*3 +0]=우편번호, v[i*3 +1]=도로명주소, v[i*3 +2]=지번주소, v.Count/3=표시할 목록 수
     // [out] n[0]=검색한 전체 목록(우편번호) 개수, n[1]=읽어온 페이지(1부터)
     // 반환값 : 에러메시지, null == OK
-	// test
+	// test1
     public static String find(String s, int p, int l, List<String> v, int[] n)
     {
         HttpURLConnection con = null;
