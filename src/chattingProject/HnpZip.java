@@ -33,7 +33,7 @@ public class HnpZip
         {
             URL url = new URL(
             "http://openapi.epost.go.kr/postal/retrieveNewAdressAreaCdSearchAllService/retrieveNewAdressAreaCdSearchAllService/getNewAddressListAreaCdSearchAll"
-            + "?ServiceKey=발급받은_인증키" // 서비스키
+            + "?ServiceKey=%2F8c6ZS37SUhanl6on6Ytoy77Dunal74o9%2FfKbgvzg0Rpojv32DnHpI7DSmfJOjr%2BmGe4binmb4QcOrPRINQPfg%3D%3D" // 서비스키
             + "&countPerPage=" + l // 페이지당 출력될 개수를 지정(최대 50)
             + "&currentPage=" + p // 출력될 페이지 번호
             + "&srchwrd=" + URLEncoder.encode(s,"UTF-8") // 검색어
